@@ -1,0 +1,117 @@
+html  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cadetblue;
+    background-color:revert;
+}
+p {
+    font-size: 16px;
+    
+}
+label {
+    font-size: 13px;
+    color:darkred;
+    font-weight:bold;
+}
+.CheckBox {
+    font-size: large;
+    color:#0c1608;
+}
+.test, .test2 {
+    background-color: rgb(0, 0, 0);
+    color: #44FF00;
+}
+.image {
+    text-align: center;
+}
+.image .inner{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+a{
+    text-align-last: center;
+}
+a:link {
+    color:rgb(111, 97, 145);
+    text-decoration:underline;
+}
+a:hover {
+    color:#44FF00;
+    text-decoration: none;
+}
+a:active{
+    color:rgb(58, 36, 7);
+    text-decoration: line-through;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+thead th:nth-child(1) {
+    width: 33,3%;
+}
+thead th:nth-child(2) {
+    width: 33,3%;
+}
+thead th:nth-child(3) {
+    width: 33,3%;    
+}
+th, td {
+    padding: 20px;
+    
+}
+th {
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+td {
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+tbody td {
+    text-align: center;
+}
+tfoot th {
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: aqua;    
+}
+
+tbody tr:nth-child(even) {
+    background-color: bisque;
+}
+
+input .class {
+    padding: 113px;
+}
+
+optgroup {
+    color: red;
+    
+}
+option {
+    color:#537e42;
+    font-style: italic;
+    font-weight: bold;
+}
+textarea {
+    
+    resize: none;
+}
+
+fieldset {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #0c1608;
+    border-radius: 5%;
+}
+legend {
+    text-align: center;   
+    
+}

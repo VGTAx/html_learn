@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML-page for study">
+    <meta name="author" content="Mikhail Novikov">
+    <meta name="generator" content="Visual Studio Code">
+    <base href="../Putin/Untitled-1.html">
+    <title>Learn HTML-page</title>
+    
+    <link href="../Putin/style.css" rel="stylesheet" type="text/css">
+  </header>
+
+  <body>
+    <head class="test2">Список сайтов</head>
+      <main>        
+        <figure>
+          <figcaption>
+            
+            <div class="image">
+              <a href="https://www.onliner.by/" target="_blank" rel="noopener noreferrer">
+                <img src="../Putin/unnamed.jpg" width="250" height="250" class="inner" alt="onliner">   
+              </a>                         
+            </div>
+            
+          </figcaption>
+          
+        </figure>
+        <form method="post" id="Sign Up" action="Untitled-1.html">
+          <input type="text" name="Login" placeholder="enter Login"/>
+          <br><input type="password" name="password" placeholder="enter password"/>                
+        </form>
+        
+        <form method="post" id="Sign In" action="Untitled-1.html">
+          <br><label for="email">E-mail: </label>
+          <br><input id="email" type="email" name="email" placeholder="enter e-mail"/>
+          <br><label for="number">Число:</label>
+          <br><input id="number" type="range" min="13" step="2" list="value" value="20"  placeholder="введите число"
+          required="true">
+        </form>
+
+
+        <form method="post" id="Radio" action="Untitled-1.html">
+          <br><input type="radio" value="C#" checked  name="LP" id="C#"> <label for="C#">C#</label>
+          <br><input type="radio" value="JAVA"  name="LP" id="JAVA"> <label for="JAVA">JAVA</label>
+          <br><input type="radio" value="Python"  name="LP" id="Python"> <label for="Python">Python</label>
+        </form>
+
+        <form method="post" id="CheckBox" action="Untitled-1.html">
+          <label class="CheckBox" for="CheckBox">CheckBox:</label>
+          <br><input type="checkbox" value="C#" checked name="LP" id="C#"> <label for="C#">C#</label>
+          <br><input type="checkbox" value="JAVA" name="LP" id="JAVA"> <label for="JAVA">JAVA</label>
+          <br><input type="checkbox" value="Python" checked name="LP" id="Python"> <label for="Python">Python</label>
+        </form>
+
+        <form method="get" id="Color" action="Untitled-1.html">
+          <label for="Color_1">Цвет_1</label>
+          <br><input type="color" list="color_value" id="Color_1" name="Color_1">
+        </form>
+
+        <form method="post" id="Contact" action="Untitled-1.html">
+          <fieldset>
+            <legend>Введите данные</legend>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" required placeholder="email@gmail.com" >
+            <br><label for="number_1">Phone number: </laber>
+            <input type="number" name="number_1" id="number_1" required placeholder="(29)-999-99-99" pattern="[0-9]{,3}">
+          </fieldset>
+        </form>
+        
+        <form method="post" id="Data" action="Untitled-1.html">
+          <label for="Data">Data:</label>
+          <input type="week" name="Data" id="Data">
+        </form>
+
+        <form method="post" id="File" action="Untitled-1.html" enctype="multipart/form-data">
+          <label for="File">Файлы для загрузки: </label>
+          <input type="file" multiple="4">
+        </form>
+        <div class="selectList">
+          <label for="list">Список: </label>
+          <select id="list">
+            <optgroup label="Value_1-Value_7">
+              <option value="Value_1">Value_1</option>
+              <option value="Value_2">Value_2</option>
+              <option value="Value_3">Value_3</option>
+              <option value="Value_4">Value_4</option>
+              <option value="Value_5">Value_5</option>
+              <option value="Value_6">Value_6</option>
+              <option value="Value_7">Value_7</option>
+                      
+            </optgroup>
+            <optgroup label="Value_8-Value_13">
+              <option value="Value_8">Value_8</option>
+              <option value="Value_9">Value_9</option>
+              <option value="Value_10">Value_10</option>
+              <option value="Value_11">Value_11</option>
+              <option value="Value_12">Value_12</option>
+              <option value="Value_13">Value_13</option>  
+            </optgroup>
+             
+          </select>
+        </div>
+
+        <div>
+          <label for="textArea">Комментарий:</label>
+          <br><textarea id="textArea" value="" name="textArea" width="100" height="100" cols="50" rows="10" autofocus placeholder="введите комментарий"></textarea>
+        </div>
+        <datalist id="color_value">
+          <option value="#0000ff" label="blue">
+          <option value="#008000" label="green">
+          <option value="#ff0000" label="red">
+        </datalist>
+        <br><button form="Contact" type="submit">Submit form</button>
+        <datalist id="value">
+          <option value="125">
+          <option value="234">
+          <option value="345">  
+        </datalist>
+        </select>
+        <details>
+          <summary>Варианты форматирования текста</summary>
+          <ol class="test" type="1" start="25">
+            <li><b>Жирный текст</b></li>
+            <li><i>Курсив</i></li>
+            <li><del>Зачеркнутый текст</del></li>
+            <li><em>Курсив логический</em></li>
+            <li><s>Зачеркнутый текст</s></li>
+            <li><small>Маленький размер текста</small></li>
+            <li><strong>Жирный текст логический</strong></li>
+            <li><p><sub>Подстрочный</sub> текст</p></li>
+            <li><p><sup>Надстрочный</sup> текст</p></li>
+            <li><p><u>Подчеркнутый текст</u></p></li>
+            <li><p><ins>Вставленный текст</ins></p></li>
+          </ol>
+        </details>
+        <details>
+          <summary>Список определений</summary>
+          <dl>
+            <dt>Термин 1</dt>
+            <dd>Определение Термина 1</dd>
+            <dt>Термин 2</dt>
+            <dd>Определение Термина 2</dd>
+            <dt>Термин 3</dt>
+            <dd>Определение Термина 3</dd>
+          </dl>
+        </details>
+        <details>
+          <summary>Таблица</summary>
+        <table>  
+          <caption><b>Таблица на 3 колонки</b></caption>        
+          <thead>            
+            <tr>              
+              <th>Первая колонка</th>
+              <th>Вторая колонка</th>
+              <th>Третья колонка</th>
+            </tr>
+          </thead>          
+          <tbody> 
+              <tr><td>1.1</td><td>1.2</td><td>1.3</td></tr>
+              <tr><td>2.1</td><td>2.2</td><td>2.3</td></tr>
+              <tr><td>3.1</td><td>3.2</td><td>3.3</td></tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="3">Подпись</th>
+            </tr>
+                     
+          </tfoot>          
+        </table>
+      </details>
+      </main>
+  </body>
+</html>

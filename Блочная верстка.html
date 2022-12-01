@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    
+    <meta charset="utf-8" lang="en-En">
+    <title>Блочная верстка</title>
+    <link rel="stylesheet" href="../Putin/styleBlock.css"></link>
+  </head>
+  <body>
+    <header>
+      <img class="head" src="../Putin/Desktop/17973908.jpg" width="100%" height="100%">
+    </header>      
+   
+    <aside>
+      <p class="Lang">
+        Выберите языки программирования:<br>        
+      </p>
+      <p class="LangList">
+        <input type="checkbox" value="C#" id="C#" name="lang"><label for="C#">C#</label><br>
+        <input type="checkbox" value="JAVA" id="JAVA" name="lang"><label for="JAVA">JAVA</label><br>
+        <input type="checkbox" value="Python" id="Python" name="lang"><label for="Python">Python</label><br>
+        <input type="checkbox" value="JavaScript" id="JavaScript" name="lang"><label for="JavaScript">JavaScript</label><br>
+        <input type="checkbox" value="PHP" id="PHP" name="lang"><label for="PHP">PHP</label><br>
+        <input type="checkbox" value="C++" id="C++" name="lang"><label for="C++">C++</label><br>
+      </p> 
+    </aside>
+   <main>
+      <form method="post" id="SignUp" name="SignUp" action="Блочная верстка.html">         
+        <fieldset>
+          <label for id="login">Login:</label> <br>
+          <input type="text" id="login" name="login"autofocus required placeholder="Login"><br>
+          <label for id="password">Password:</label><br>
+          <input type="password" id="password" name="password" required placeholder="password"><br>
+          <label for id="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" required placeholder="email@mail.com"><br>
+          <label for id="number">Number:</label><br>
+          <input type="text" id="number" name="number" required pattern="[0-9]{9}" placeholder="44xxxxxxxx"><br>
+          <label for id="name">Name:</label><br>
+          <input type="text" id="name" name="name" required placeholder="Ivan"><br>
+          <label for id="surname">Surname:</label><br>
+          <input type="text" id="surname" name="surname" required placeholder="Ivanov"><br>
+          <laber for id="date">Date:</laber><br>
+          <input type="date" id="date" name="date" required placeholder="date">
+        </fieldset>
+      </form>  
+      <button class="SignUp" form="SignUp" type="submit">Submit</button>
+
+      <table>
+        <caption>Языки программирования</caption>
+        <thead>
+          <tr>
+            <th>Язык программирования</th>
+            <th>Описание</th>
+            <th>Применяемость</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="ColLang">С#</td>
+            <td> — объектно-ориентированный язык программирования общего назначения. Разработан в 1998—2001 годах группой инженеров компании
+               Microsoft под руководством Андерса Хейлсберга и Скотта Вильтаумота[6] 
+               как язык разработки приложений для платформы Microsoft .NET Framework и .NET Core.</td>
+            <td>
+              <ul>
+                <li>Mobile</il>
+                <li>WEB</li>
+                <li>Desktop</li>
+                <li>GameDev</li>
+              </ul>
+            </td> 
+          </tr>
+          <tr>
+            <td class="ColLang">JAVA</td>
+            <td> — язык программирования общего назначения. Относится к объектно-ориентированным языкам программирования,
+               к языкам с сильной типизацией.</td>
+            <td>
+              <ul>
+                <li>Mobile</il>
+                <li>WEB</li>
+                <li>Desktop</li>                
+              </ul>
+            </td> 
+          </tr>
+          <tr>
+            <td class="ColLang">JavaScript</td>
+            <td> — это полноценный динамический язык программирования, который применяется к HTML документу,
+               и может обеспечить динамическую интерактивность на веб-сайтах.</td>
+            <td>
+              <ul>                
+                <li>WEB</li>                               
+              </ul>
+            </td> 
+          </tr>
+        </tbody>
+      </table>
+   </main>
+   <nav>
+    <p>Блок навигации:</p>
+    <a href="Untitled-1.html">1. Страница №1</a>
+   </nav>
+    <footer>Футер</footer>
+  </body>
+   
+
+</html>
