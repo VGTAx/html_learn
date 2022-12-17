@@ -1,0 +1,148 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3%;
+}
+main {
+  height: 85%;
+}
+.header { 
+  display: flex;
+  flex-direction: row; 
+  border: 1px solid black ;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: darkslategray;
+  width: 70%;    
+  padding: 10px;  
+  margin-top: -8px; 
+  font-size: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;   
+  padding: 1.5% 2.5% 1.5% 2.5%;
+  
+}
+.start {
+  flex: 1 1 auto;
+}
+.end {  
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+   
+} 
+.header a {
+  color: white;
+  text-decoration: none;
+  padding-left: 5px;
+}
+@media (max-width:480px) {
+  .header {
+    width: 80%;
+    min-width: auto;
+    margin: 0;
+  }
+}
+main {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 85%;
+}
+.main {
+  position: relative;
+  top:5%;
+  width: 102%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-tile{
+  position: absolute;
+  top: 5%;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+.main-tile .tile {
+  display: flex;
+  flex-direction: column;
+  margin: 15px; 
+  box-shadow: 0px 17px 90px -21px rgb(0 0 0 / 80%);
+  border-radius: 15px;
+  width: 30%;
+  padding: 4% 5% 4% 5%;
+  
+  justify-content: center; 
+}
+.tile:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.main-tile .tile:nth-child(1) {
+  background-color: #2f4f4f;   
+}
+.main-tile .tile:nth-child(2) {
+  background-color: red;  
+}
+.main-tile .tile:nth-child(3){
+  background-color: yellow;  
+}
+
+.info {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: red; 
+  margin-right: -1%;
+  margin-left: -1%;
+  width: 102%;
+  height: 20%;
+  padding-top: 8%;
+  margin-top: 7%;    
+}
+
+.info-item   {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  padding-left: 5px;
+  width: 10%;
+  font-size: 120%;
+  font-family: "Nunito Sans";
+  color: #ffffff; 
+}
+
+.info-item-header{
+  margin-top: 30px;
+  align-self: center;
+  line-height: 25px;
+  font-weight: 800;
+}
+.info-item-footer{
+  text-align: center;  
+}
+.info-item:nth-child(3) {
+  margin-top: 1.79%;
+}
+.video {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;  
+}
+.video video {
+  border-radius: 9%;
+}
+video:nth-child(2)
+{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
